@@ -1,0 +1,109 @@
+*{
+    font-family: sans-serif;
+    color: white;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(to right, #bf4342, #8c1c13);
+    margin: 25px;
+}
+ 
+h1, h3{
+    text-align: center;
+}
+
+h3{
+    font-size: 25px;
+    color: rgb(248, 231, 165);
+}
+
+div{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 10px 0px;
+}
+
+p{
+    font-size: 20px;
+    padding: 4px 30px;
+}
+
+.menu li a:hover {
+    color:pink;
+    transition: all 0.3s;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+img{
+    width:40%;
+    border-radius: 15px;
+}
+
+.que-es-kanbas-img{
+    width: 30rem;
+    margin: 15px;
+    float: right;
+}
+
+
+footer p{
+    font-size: 16px;
+}
+
+.kanban{
+    width: 30%;
+    float: right;
+    margin: 15px 25px;
+}
+
+.tablero-kanban{
+    width: 35%;
+    margin-bottom: 15px;
+}
+
+.div-raro{
+    border: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arcoiris{
+    width: 20%;
+    float: right;
+    margin-right: 90px;
+}
+
+.navegacion {
+    width: 1000px;
+    margin: auto;
+    background-color: #b6a19e;
+}
+
+.navegacion ul {
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    padding: 0% 2%;
+    align-items: center;
+}
+
+.menu > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
