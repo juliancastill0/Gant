@@ -25,22 +25,22 @@ h1, h3{
 h1{
     font-size: 90px;
     color: #ffb71d;
-    margin: 300px;
+    margin: 50px;
 }
 
 h3{
-    font-size: 30px;
-    color: rgb(248, 231, 165);
+    font-size: 35px;
+    color: #ffb71d;
 }
 
 h4{
     font-size: 25px;
     color: rgb(255, 211, 117);
-    
+    margin: auto 15px;
 }
 
 div{
-    border: 2px solid rgb(255, 222, 78);
+    border: 2px solid rgb(255, 211, 117);
     border-radius: 20px;
     padding: 10px;
     margin: 10px 0px;
@@ -53,7 +53,7 @@ p{
 }
 
 .menu li a:hover {
-    color:pink;
+    color:rgb(190, 7, 38);
     transition: all 0.3s;
 }
 
@@ -64,7 +64,13 @@ p{
 
 img{
     width:40%;
-    border-radius: 15px;
+    border: 1px solid rgb(255, 211, 117);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+img:hover {
+    box-shadow: 0 0 3px 2px rgb(255, 211, 117);
 }
 
 .que-es-kanbas-img{
@@ -104,7 +110,8 @@ footer p{
 .navegacion {
     width: 1000px;
     margin: auto;
-    background-color: #e2a600;
+    background-color: #ffb71d;
+    border-radius: 20px;
 }
 
 .navegacion ul {
@@ -123,3 +130,13 @@ footer p{
     padding: 15px 20px;
     text-decoration: none;
 }
+
+#especialito {
+    text-align: center;
+}
+
+#excesoinfo {
+    float: right;
+    margin: 55px 15px;
+}
+
