@@ -76,7 +76,7 @@ img:hover {
 
 .que-es-kanbas-img{
     width: 40rem;
-    margin: 15px;
+    margin: 55px 15px;
     float: right;
 }
 
@@ -154,4 +154,18 @@ ul{
 #parte5 img{
     height: 200px;
     width: 600px;
+    margin: 55px 15px;
+}
+
+.ventajas{
+    margin-left: 40px;
+    list-style: circle;
+}
+
+.ventajas-imagen{
+    width: 450px;
+    height: 450px;
+    float:right;
+    position: relative;
+    margin: 55px 15px;
 }
