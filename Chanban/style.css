@@ -169,3 +169,8 @@ ul{
     position: relative;
     margin: 55px 15px;
 }
+
+.ventajas{
+    margin-left: 40px;
+    list-style: circle;
+}
