@@ -157,12 +157,29 @@ ul{
     margin: 55px 15px;
 }
 
+.partescomponentes {
+    width: 50%;
+    float: left;
+    border: 0;
+}
+
+#imgcomponentes {
+    width: 43%;
+}
+
+#imgcomponentes.ampliada {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    cursor: zoom-out;
+  }
 .ventajas-imagen{
     float:right;
+    width: 461px;
+    height: 461px;
     margin: 55px 15px;
 }
 
-.ventajas{
-    margin-left: 40px;
-    list-style: circle;
-}
