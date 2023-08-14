@@ -75,8 +75,8 @@ img:hover {
 }
 
 .que-es-kanbas-img{
-    width: 30rem;
-    margin: 15px;
+    width: 40rem;
+    margin: 55px 15px;
     float: right;
 }
 
@@ -132,7 +132,10 @@ footer p{
     text-decoration: none;
 }
 
-
+ul{
+    font-size: 20px;
+}
+ 
 #especialito {
     text-align: center;
 }
@@ -151,6 +154,7 @@ footer p{
 #parte5 img{
     height: 200px;
     width: 600px;
+    margin: 55px 15px;
 }
 
 .partescomponentes {
@@ -172,3 +176,10 @@ footer p{
     z-index: 9999;
     cursor: zoom-out;
   }
+.ventajas-imagen{
+    float:right;
+    width: 461px;
+    height: 461px;
+    margin: 55px 15px;
+}
+
