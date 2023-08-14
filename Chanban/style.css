@@ -159,10 +159,8 @@ ul{
 
 .ventajas-imagen{
     float:right;
+    width: 460px;
+    height: 460px;
     margin: 55px 15px;
 }
 
-.ventajas{
-    margin-left: 40px;
-    list-style: circle;
-}
