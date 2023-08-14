@@ -86,7 +86,6 @@ footer p{
 }
 
 .kanban{
-    width: 30%;
     float: right;
     margin: 15px 25px;
 }
@@ -163,19 +162,20 @@ ul{
     border: 0;
 }
 
-#imgcomponentes {
-    width: 43%;
-}
-
-#imgcomponentes.ampliada {
+.ampliada {
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
     z-index: 9999;
-    cursor: zoom-out;
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: zoom-out; /* Cambiar el cursor al hacer zoom */
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
   }
+  
+
 .ventajas-imagen{
     float:right;
     width: 461px;
@@ -183,3 +183,6 @@ ul{
     margin: 55px 15px;
 }
 
+img:hover {
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
+}
