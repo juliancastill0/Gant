@@ -52,7 +52,7 @@ img{
 }
 
 .que-es-kanbas-img{
-    width: 30rem;
+    width: 40rem;
     margin: 15px;
     float: right;
 }
@@ -106,4 +106,8 @@ footer p{
     display: block;
     padding: 15px 20px;
     text-decoration: none;
+}
+
+ul{
+    font-size: 20px;
 }
