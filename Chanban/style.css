@@ -155,3 +155,8 @@ ul{
     height: 200px;
     width: 600px;
 }
+
+.ventajas{
+    margin-left: 40px;
+    list-style: circle;
+}
