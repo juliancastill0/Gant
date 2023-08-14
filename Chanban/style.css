@@ -25,7 +25,7 @@ h1, h3{
 h1{
     font-size: 90px;
     color: #ffb71d;
-    margin: 50px;
+    margin: 50px 0;
 }
 
 h3{
@@ -40,8 +40,9 @@ h4{
 }
 
 div{
-    border: 2px solid rgb(255, 211, 117);
-    border-radius: 20px;
+    border-left: 2px solid rgb(255, 222, 78);
+    border-right: 2px solid rgb(255, 222, 78);
+    border-radius: 100px;
     padding: 10px;
     margin: 10px 0px;
     width: 100%;
@@ -74,8 +75,8 @@ img:hover {
 }
 
 .que-es-kanbas-img{
-    width: 30rem;
-    margin: 15px;
+    width: 40rem;
+    margin: 55px 15px;
     float: right;
 }
 
@@ -131,6 +132,10 @@ footer p{
     text-decoration: none;
 }
 
+ul{
+    font-size: 20px;
+}
+ 
 #especialito {
     text-align: center;
 }
@@ -140,3 +145,24 @@ footer p{
     margin: 55px 15px;
 }
 
+.ejemplo{
+    font-size: 22px;
+    margin-left: 40px;
+    list-style: circle;
+}
+
+#parte5 img{
+    height: 200px;
+    width: 600px;
+    margin: 55px 15px;
+}
+
+.ventajas-imagen{
+    float:right;
+    margin: 55px 15px;
+}
+
+.ventajas{
+    margin-left: 40px;
+    list-style: circle;
+}
